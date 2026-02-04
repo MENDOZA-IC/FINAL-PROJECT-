@@ -4,7 +4,72 @@
 <title>ML Items Wiki</title>
 <link rel="stylesheet" href="style.css">
 </head>
+  <style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #0d1117;
+    color: white;
+}
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #161b22;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(#1f2937, #111827);
+}
+
+.category {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 30px;
+}
+
+.item {
+    background: #161b22;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.item img {
+    width: 80px;
+    height: 80px;
+}
+
+.tips, .updates {
+    padding: 30px;
+    line-height: 1.7;
+}
+    </style>
 <body>
 
 <nav>
